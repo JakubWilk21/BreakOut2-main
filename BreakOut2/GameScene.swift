@@ -8,6 +8,7 @@
 import SpriteKit
 import GameplayKit
 
+// variables
 class GameScene: SKScene, SKPhysicsContactDelegate {
     var ball = SKShapeNode()
     var bricks = [SKSpriteNode]()
@@ -99,7 +100,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     func resetGame() {
-        // this stuff happens before each game starts
+        // this happens before start of game
         makeBall()
         makeBricks()
         makePaddle()
