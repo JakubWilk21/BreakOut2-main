@@ -136,7 +136,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         ball = SKShapeNode(circleOfRadius: 10)
         ball.position = CGPoint(x: frame.midX, y: frame.midY)
         ball.strokeColor = .black
-        ball.fillColor = .yellow
+        ball.fillColor = .red
         ball.name = "ball"
         
         // physics shape matches ball image
